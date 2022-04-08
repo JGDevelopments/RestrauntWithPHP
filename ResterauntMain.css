@@ -1,0 +1,119 @@
+
+html {
+    height: 130%; 
+
+}
+
+
+body {
+    background-color: rgb(61, 61, 61);
+    background-image:url(images/background-adare-restaurant.jpg);
+    background-size:cover; /*covers the part of the screen in which it is attached to */
+    background-repeat: no-repeat; /* ensures the screen doesnt repeat to attempt to fill the screen */
+    background-position: center; /*ensures it remains as centered as it can be across all sizes */
+}
+
+.container {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+
+    
+    height: 118px;
+    width: 1024px;
+    text-align: center;
+
+}
+
+nav {
+
+    background-color: rgba(0, 0, 0, 0.494); /*you can hard code something transparent but it will be completely transparent, or you can make it somewhat opaque in color, which appears to be transparent  */
+    height: auto;
+    width: 1024px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-spacing: 28px;
+}
+
+main {
+
+    text-align: center;
+    padding-top: 80px; /* Padding is the distance of the inside of the box from the margins and margin is the distance from margin to the outside of the box */
+    padding-left: auto;
+    padding-right: auto;
+}
+
+table {
+    margin: auto;
+    color:white ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#login {
+    background-color:rgb(48, 48, 48) ;
+    color: white;
+    border-radius: .4em;
+}
+
+footer {
+
+    
+    
+    width: 1024px;
+    background-color: rgba(0, 0, 0, 0.611);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+
+}
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+
+a {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+.MenuClass {
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    font-style: italic;
+
+}
+
+.FootNote {
+    font-size: 4px;
+}
+
+.maps {
+    padding-top: 50px;
+    padding-bottom: 75px;
+    
+}
